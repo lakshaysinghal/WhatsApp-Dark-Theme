@@ -1,0 +1,13 @@
+	{
+  "manifest_version": 2,
+ 
+  "name": "Whatsapp Dark Mode",
+  "version": "0.1.1",
+  "description": "Enable Default Dark Mode for Whatsapp",
+ 
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://web.whatsapp.com/*"]
+  }]
+ 
+}
